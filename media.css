@@ -1,0 +1,145 @@
+@media (max-width: 1000px){
+    :root {
+        
+        --hitam: black;
+        --warnaku: #348ceb;
+        --putih: white;
+    
+      
+    }
+    #search{
+        display: none;
+      }
+      #shopcard{
+        display: none;
+      }
+    
+    
+    
+        .hero{
+            font-size: 50%;
+        }
+    
+    
+    
+        #menu{
+          display: inline-block;
+        }
+      
+        .navbar-nav{
+          position: absolute;
+          top: 100%;
+          right: -100%;
+          background-color: #ffffffe4;
+          width: 15rem;
+          height: 100vh;
+          transition: 0.3s;
+        }
+
+        .navbar-nav ul .kontak1{
+          display: flex;
+        }
+      
+        .navbar-nav.active{
+          right: 0;
+        }
+      
+        .navbar-nav a{
+          color: var(--hitam);
+          display: block;
+          margin: 1.5rem;
+          padding: 0.5rem;
+          font-size: 1rem;
+      
+        }
+
+
+
+
+
+        /*section1*/
+        .s1{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        }
+
+        .s1d1 h1{
+          font-size: 2rem;
+          text-align: center;
+        }
+
+        .s1d1 p{
+          font-size: 1rem;
+          text-align: center;
+          margin-top: 1rem;
+        }
+
+        .s1d2{
+          display: none;
+        }
+
+        .s1d1{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 1px solid var(--putih);
+          border-radius: 20px;
+          padding: 1rem;
+        }
+
+        .nn{
+          display: flex;
+          margin-top: 3rem
+        }
+
+        .nn img{
+          width: 250px;
+        }
+
+        .s1d3 img{
+          margin-top: 2rem;
+          width: 200px;
+          border-radius: 50%;
+        }
+
+        .s1d3 p{
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+
+        .s1d3 h1{
+          text-align: center;
+          margin-top: 1rem;
+        }
+
+        .s1d3 a{
+          background-color: var(--warnaku);
+          padding: 1rem 2rem;
+          text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+          border-radius: 10px;
+          color: var(--putih);
+        }
+
+        .s1d3{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 2rem 2rem 2rem 2rem;
+          padding-top: 0;
+          border: 1px solid var(--putih);
+          border-radius: 20px;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        }
+
+        .s2{
+          display: none;
+        }
+
+        
+
+
+    }

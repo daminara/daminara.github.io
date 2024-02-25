@@ -1,0 +1,204 @@
+:root {
+    --hitam: black;
+    --warnaku: #348ceb;
+    --putih: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  body {
+    background-color: var(--hitam);
+  }
+  
+  /*navbar*/
+
+
+  .barbar{
+    width: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 5%;
+    background-color: rgb(1, 1, 1);
+    border-bottom: 1px solid var(--warnaku);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar-logo img{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #m{
+    color:var(--warnaku);
+  }
+
+  .navbar-nav ul .kontak1{
+    display: none;
+  }
+  
+  .navbar-nav a{
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+  
+  .navbar-extra .bar:hover{
+    color: var(--warnaku);
+  }
+  
+  .navbar-nav a:hover{
+    color: var(--warnaku);
+  }
+  
+  .navbar-nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.1rem solid var(--warnaku);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  .navbar-nav a:hover::after{
+    transform: scaleX(1);
+  }
+  
+  .navbar-extra a{
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+  
+  #menu{
+    display: none;
+  }
+  
+  .contactlogo{
+    background-color: var(--warnaku);
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+    font-size: 0.8rem;
+    color: var(--putih);
+    text-decoration: none;
+  }
+
+
+
+
+/*section1*/
+@keyframes wahyu {
+  100%{
+      background-position: 25% 70%;
+  }
+}
+
+.nn{
+  display: none;
+}
+section{
+  color: var(--putih);
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+.s1{
+  margin-top: 4rem;
+  background-image: url('./assets/svgsvg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: wahyu 3s infinite alternate ease;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s1d1 a{
+  background-color: var(--warnaku);
+  padding: 1rem 2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+  border-radius: 10px;
+  color: var(--putih);
+}
+.s1d1 h1{
+  font-size: 3rem;
+}
+
+.s1d1 p{
+  margin-bottom: 2rem;
+}
+
+.s1d1{
+  margin-top: 7rem;
+}
+
+.s1d2 img{
+  width: 500px;
+  margin-top: 7rem;
+}
+
+.spn{
+  color: var(--warnaku);
+}
+
+.s1d3{
+  display: none;
+}
+
+.s2d1 img{
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.s2d1 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  border: 1px solid var(--putih);
+  border-radius: 20px;
+  padding: 3rem;
+  background-image: url('./assets/bodyimg.jpg');
+}
+
+.s2d2 h1{
+  font-size: 3rem;
+}
+
+.s2d2 .p1{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.p2{
+  margin-bottom: 2rem;
+}
+
+.s2d2 a{
+  background-color: var(--warnaku);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: var(--putih);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+}
